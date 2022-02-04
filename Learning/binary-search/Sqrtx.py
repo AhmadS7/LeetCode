@@ -13,6 +13,7 @@ class Solution:
                 print("right",right)
             else:
                 left = mid
+                print("left",left)
         return left                
         
         
