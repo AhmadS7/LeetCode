@@ -6,14 +6,15 @@ class Solution:
         right = x
         
         while left < right:
+            print("initial right", right)
             mid = (left + right + 1) // 2
-            print("mid",mid)
+            print("mid", mid)
             if mid * mid > x:
                 right = mid - 1
-                print("right",right)
+                print("right", right)
             else:
                 left = mid
-                print("left",left)
+                print("left", left)
         return left                
         
         
